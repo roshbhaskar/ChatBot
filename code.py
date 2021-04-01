@@ -137,7 +137,7 @@ if __name__ == "__main__":
     result.show(1600)
     predictionAndLabels = result.select("prediction", "label")
     #as spark doesn’t allow user input, we write our questions in a text file and submit to the model
-    questions = sc.textFile("/Input/Ap.txt")
+    questions = sc.textFile("/Input/input.txt")
     le_name_mapping = {}
 
     for i,j in zip(get_dict_label,get_dict_subreddit): #(maps the subreddit class to its label)
