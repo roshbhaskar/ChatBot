@@ -14,13 +14,15 @@ Spark does not allow user inputs. Hence the questions for this chatbot are submi
 ## NOTE
 1. HDFS must be installed in the system and running. (For this project)
 2. Pyspark must be installed and running.
-3. test_file1.tsv must uploaded to HDFS
+3. test_file1.tsv , intents.json and input.txt must uploaded to HDFS
 
 <br>
 
 To upload file in HDFS - <br>
 1. hdfs dfs –mkdir –p /Input
 2. hdfs dfs –put /location/of/test_file1.tsv /Input
+3. hdfs dfs –put /location/of/intents.json /Input
+4. hdfs dfs –put /location/of/input.txt /Input
 
 To run - <br>
 1. spark-submit code.py
