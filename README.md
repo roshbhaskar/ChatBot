@@ -5,7 +5,7 @@ Built using Reddit Dataset.<br>
 
 ## Team Members
 - Sharika Valambatla <br>
-- Vishwajeeth Hogale <br>
+- Vishwajeet Hogale <br>
 - Roshini Bhaskar <br>
 
 ## Challenges
