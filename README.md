@@ -1,6 +1,6 @@
 # ChatBot using Pyspark
 
-A rule based chatbot built on Pyspark. <br>
+A rule based chatbot built on Pyspark for the course `Big Data`. <br>
 Built using Reddit Dataset.<br>
 
 ## Team Members
